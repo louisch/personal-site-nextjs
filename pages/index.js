@@ -24,7 +24,7 @@ export default function Home() {
           >
             <h3 className="text-2xl font-bold">CV &rarr;</h3>
             <p className="mt-4 text-xl">
-              If you are looking to hire me, here's my CV
+              If you are looking to hire me, here&#39;s my CV
             </p>
           </a>
 
@@ -44,11 +44,26 @@ export default function Home() {
           >
             <h3 className="text-2xl font-bold">Contact Me &rarr;</h3>
             <p className="mt-4 text-xl">
-              You can email me at <span className="text-blue-400">louisch@fastmail.com</span>
+              You can email me at <span className="text-blue-600">louisch@fastmail.com</span>
             </p>
           </a>
+
+          <a
+            href="https://www.linkedin.com/in/louisch/"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">LinkedIn &rarr;</h3>
+            <p className="mt-4 text-xl">
+              Here is my LinkedIn
+            </p>
+          </a>
+            
         </div>
       </main>
+
+      <footer className="h-4 border-t flex items-center p-10 w-full">
+        <p>This site is made with <a className="text-blue-600 hover:text-blue-400" href="https://nextjs.org/">Next.js</a>, and <a className="text-blue-600 hover:text-blue-400" href="https://tailwindcss.com/">TailwindCSS</a>.</p>
+      </footer>
     </div>
   )
 }
